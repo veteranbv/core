@@ -133,7 +133,7 @@ async def test_favorite_firmness(
         f"number.{BED_NAME_LOWER}_sleepnumber_{BED_NAME_LOWER}"
         f"_{SLEEPER_R_NAME_LOWER}_favorite_firmness"
     )
-    assert state.state == "35.0"
+    assert state.state == "65.0"
 
     await hass.services.async_call(
         NUMBER_DOMAIN,

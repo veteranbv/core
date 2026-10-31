@@ -281,7 +281,7 @@
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
-    'state': '360.0',
+    'state': '350.0',
   })
 # ---
 # name: test_sensors[sensor.test_bed_sleepnumber_test_bed_sleeper_r_restless_sleep-entry]
@@ -343,7 +343,7 @@
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
-    'state': '40.0',
+    'state': '45.0',
   })
 # ---
 # name: test_sensors[sensor.test_bed_sleepnumber_test_bed_sleeper_r_sleep_duration-entry]
@@ -573,7 +573,7 @@
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
-    'state': '1.0',
+    'state': '2.0',
   })
 # ---
 # name: test_sensors[sensor.test_bed_sleepnumber_test_bed_sleeper_r_time_to_fall_asleep-entry]
@@ -635,7 +635,7 @@
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
-    'state': '9.0',
+    'state': '20.0',
   })
 # ---
 # name: test_sensors[sensor.test_bed_sleepnumber_test_bed_sleeperl_heart_rate_average-entry]
@@ -920,7 +920,7 @@
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
-    'state': '380.0',
+    'state': '400.0',
   })
 # ---
 # name: test_sensors[sensor.test_bed_sleepnumber_test_bed_sleeperl_restless_sleep-entry]
@@ -982,7 +982,7 @@
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
-    'state': '33.0',
+    'state': '25.0',
   })
 # ---
 # name: test_sensors[sensor.test_bed_sleepnumber_test_bed_sleeperl_sleep_duration-entry]
@@ -1212,7 +1212,7 @@
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
-    'state': '3.0',
+    'state': '5.0',
   })
 # ---
 # name: test_sensors[sensor.test_bed_sleepnumber_test_bed_sleeperl_time_to_fall_asleep-entry]
@@ -1274,6 +1274,6 @@
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
-    'state': '15.0',
+    'state': '10.0',
   })
 # ---
