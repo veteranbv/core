@@ -82,6 +82,10 @@ def mock_bed() -> MagicMock:
         heart_rate=60,
         respiratory_rate=14,
         hrv=68,
+        restful=22800,
+        restless=1980,
+        out_of_bed=180,
+        fall_asleep_period=900,
     )
 
     sleeper_r.side = Side.RIGHT
@@ -97,6 +101,10 @@ def mock_bed() -> MagicMock:
         heart_rate=65,
         respiratory_rate=15,
         hrv=72,
+        restful=21600,
+        restless=2400,
+        out_of_bed=60,
+        fall_asleep_period=540,
     )
 
     bed.foundation = create_autospec(SleepIQFoundation)
