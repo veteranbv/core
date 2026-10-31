@@ -3,7 +3,6 @@
 from unittest.mock import MagicMock
 
 from freezegun.api import FrozenDateTimeFactory
-from pytest_homeassistant.common import async_fire_time_changed
 
 from homeassistant.components.number import (
     ATTR_MAX,
@@ -36,6 +35,8 @@ from .conftest import (
     SLEEPER_R_NAME_LOWER,
     setup_platform,
 )
+
+from tests.common import async_fire_time_changed
 
 FAVORITE_L_ENTITY_ID = (
     f"number.{BED_NAME_LOWER}_sleepnumber_{BED_NAME_LOWER}"
