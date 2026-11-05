@@ -76,6 +76,9 @@
       "bypass_timeout": {
         "name": "Break function timeout"
       },
+      "dimmer_speed": {
+        "name": "Dimming speed"
+      },
       "display_brightness": {
         "name": "Display brightness"
       },
@@ -105,6 +108,13 @@
           "normally_closed": "Normally closed",
           "normally_open": "Normally open",
           "unsupported": "Unsupported"
+        }
+      },
+      "dimmer_phase_control": {
+        "name": "Dimmer phase control",
+        "state": {
+          "leading": "Leading edge phase cut",
+          "trailing": "Trailing edge phase cut"
         }
       },
       "display_direction": {
